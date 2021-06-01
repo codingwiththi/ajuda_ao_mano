@@ -1,0 +1,33 @@
+form label {
+  font-weight: bold;
+}
+
+form label::after {
+  content: ":";
+}
+
+form div + div,
+form div + input[type="submit"] {
+  margin-top: 1em;
+}
+
+form + table {
+  margin-top: 1em;
+}
+
+table {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: left;
+  width: 100%;
+}
+
+table .options {
+  cursor: default;
+  max-width: -1;
+}
+
+table tr:nth-child(even) {
+  background-color: #e4e4e4;
+}
